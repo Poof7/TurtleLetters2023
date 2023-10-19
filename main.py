@@ -204,6 +204,30 @@ def drawP():
   goto(100,25)
   goto(75,25)
 
+#Ada
+
+def letterA():
+  pendown()
+  forward(180)
+  right(120)
+  forward(180)
+  right(180)
+  forward(90)
+  left(60)
+  forward(90)
+
+def letterC():
+  for i in range(180):
+    pendown()
+    forward(1.5)
+    left(1)
+
+
+
+
+
+
+
 
 
 
